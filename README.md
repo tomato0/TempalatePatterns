@@ -11,7 +11,7 @@ Java设计模式之模板设计模式
 定义一个操作中的算法的框架，而将一些步骤延迟到了子类中。使得子类可以不改变一个算法的结构即可重定义该算法的某些步骤。
 ### UML类图描述：  
 下图就是模板方法设计模式的UML类图描述，正如你所见，没错，就是这么简单，一目就能了然。
-![TempalatePattern UML类图](https://github.com/tomato0/TempalatePatterns/blob/master/tempalate_patterns.png)
+![TempalatePattern UML类图](https://github.com/tomato0/TempalatePatterns/blob/master/tempalate_patterns.png)  
 其中AbstractClass叫做抽象模板类，实现了模板方法，定义了算法的骨架，它的方法分为两类：    
 1. 基本方法：基本方法也叫作基本操作，是由子类实现的方法，并且在模板方法被调用.  
 2. 模板方法：可以有一个或者几个，一般是一个具体方法，也就是一个框架，实现对基本方法的调度，完成固定的逻辑。  
